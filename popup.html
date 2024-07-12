@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webpage to RSS Feed</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 10px; }
+        button { padding: 10px 20px; margin-top: 10px; }
+        input { padding: 5px; width: 100%; }
+    </style>
+</head>
+<body>
+<h1>Create RSS Feed</h1>
+<button id="createFeed">Create RSS Feed</button>
+<h2>Manage RSS Feeds</h2>
+<input type="text" id="rssUrl" placeholder="Enter RSS feed URL">
+<button id="addFeed">Add RSS Feed</button>
+<div id="status"></div>
+<ul id="feedList"></ul>
+<script src="popup.js"></script>
+</body>
+</html>
